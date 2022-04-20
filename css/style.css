@@ -35,6 +35,7 @@ header, main, footer{
 .nav{
     display: flex;
     justify-content: space-between;
+    padding: 1rem;
 }
 
 .nav-row{
@@ -45,7 +46,7 @@ header, main, footer{
 }
 
 .nav-button{
-    padding: .5rem 1rem;
+    padding: .5rem .3rem;
 }
 
 .background-blue{
@@ -104,3 +105,24 @@ header, main, footer{
 .footer-links-col{
     flex-basis: calc(100% / 5);
 }
+
+button{                        /* css bottoni barra nav */
+    background-color: transparent;    
+    cursor: grab;
+    border-style: none;
+    padding: .3rem .8rem;
+}
+
+.nav-btn-color button{
+    color: white;
+}
+
+.logo{
+    padding-right: 1rem;
+} 
+
+.logo img{                /* css immagine del logo */
+    vertical-align: bottom;
+    width: 115px;
+}
+
