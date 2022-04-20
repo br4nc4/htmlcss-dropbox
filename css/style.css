@@ -22,7 +22,7 @@ header, main, footer{
 }
 
 .container-small {
-    max-width: 900px;
+    max-width: 960px;
     min-width: 300px;
     margin: 0 auto;
     padding: 2em 1em;
@@ -57,5 +57,15 @@ header, main, footer{
 }
 
 .header-row-left{
-    flex-basis: 60%;
+    flex-basis: 60%; /* forse necessita di una min-width perchè tanto testo deforma la dimensione della colonna */
+}
+
+.main-business-select{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.main-col-business{
+    flex-basis: calc((100% - 2rem) / 3);
 }
