@@ -69,3 +69,17 @@ header, main, footer{
 .main-col-business{
     flex-basis: calc((100% - 2rem) / 3);
 }
+
+.container-img-text{
+    display: flex;
+}
+
+.dropbox-info{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.dropbox-info-col{
+    flex-basis: calc((100% - 2rem) / 3);
+}
