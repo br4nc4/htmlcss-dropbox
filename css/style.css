@@ -85,6 +85,15 @@ button{
     padding-bottom: 40px;
 }
 
+.header-center-button button{
+    padding: .7rem .9rem;
+    font-size: 15px;
+}
+
+.header-center-button{
+    padding: 1.5rem 0;
+}
+
 .header-col-left{
     flex-basis: 60%; /* forse necessita di una min-width perchè tanto testo deforma la dimensione della colonna */
 }
@@ -143,3 +152,7 @@ button{
     width: 115px;
 }
 
+.dwn-symb i{
+    padding-top: 4rem;
+    font-size: 3rem;
+}
