@@ -9,6 +9,11 @@ header, main, footer{
     width: 100%;
 }
 
+.container-color{
+    background: #B4D0E7;
+    /* probabile impostazione, position: relative; */
+}
+
 .container-large {
     max-width: 1200px;
     min-width: 300px;
@@ -41,4 +46,16 @@ header, main, footer{
 
 .background-blue{
     background: #0061FF;
+}
+
+.header-center{
+    display: flex;
+}
+
+.header-center img{
+    width: 785px;
+}
+
+.header-row-left{
+    flex-basis: 60%;
 }
