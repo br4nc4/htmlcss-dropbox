@@ -14,6 +14,10 @@ header, main, footer{
     /* probabile impostazione, position: relative; */
 }
 
+.comtainer-footer-color{
+    background: #000000;
+}
+
 .container-large {
     max-width: 1200px;
     min-width: 300px;
@@ -90,4 +94,13 @@ header, main, footer{
 
 .dpbox-free{
     display: flex;
+}
+
+.footer-links{
+    display: flex;
+    flex-wrap: wrap; /* forse in questo caso non serve */
+}
+
+.footer-links-col{
+    flex-basis: calc(100% / 5);
 }
