@@ -18,14 +18,14 @@ header, main, footer{
     max-width: 1200px;
     min-width: 300px;
     margin: 0 auto;
-    padding: 2em 1em;
+    /* padding: 2em 1em; */  /* momentaneamente disattivati */
 }
 
 .container-small {
     max-width: 960px;
     min-width: 300px;
     margin: 0 auto;
-    padding: 2em 1em;
+    /* padding: 2em 1em; */ /* momentaneamente disattivati */
 }
 
 .nav{
@@ -82,4 +82,12 @@ header, main, footer{
 
 .dropbox-info-col{
     flex-basis: calc((100% - 2rem) / 3);
+}
+
+.dropbox-info-subtext{
+    display: flex;
+}
+
+.dpbox-free{
+    display: flex;
 }
