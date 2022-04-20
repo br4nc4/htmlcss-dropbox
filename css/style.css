@@ -10,6 +10,10 @@ header, main, footer{
     width: 100%;
 }
 
+header{
+    padding-bottom: 10rem;
+}
+
 button{                        
     background-color: transparent;    
     cursor: grab;
@@ -155,4 +159,14 @@ button{
 .dwn-symb i{
     padding-top: 4rem;
     font-size: 3rem;
+}
+
+.main-business-title h2{
+    font-size: 35px;
+    padding-bottom: 3rem;
+}
+
+.billing-select input{
+    vertical-align: middle;
+    width: 1rem;
 }
