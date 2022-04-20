@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 1px solid;
+}
+
+header, main, footer{
+    width: 100%;
+}
+
+.container-large {
+    max-width: 1200px;
+    min-width: 300px;
+    margin: 0 auto;
+    padding: 2em 1em;
+}
+
+.container-small {
+    max-width: 900px;
+    min-width: 300px;
+    margin: 0 auto;
+    padding: 2em 1em;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-row{
+    display: flex;
+    justify-content: space-between;
+    /* valutare se inserire GAP al posto di space-between */
+    align-items: center;
+}
+
+.nav-button{
+    padding: .5rem 1rem;
+}
+
+.background-blue{
+    background: #0061FF;
+}
