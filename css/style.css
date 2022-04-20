@@ -10,6 +10,13 @@ header, main, footer{
     width: 100%;
 }
 
+button{                        
+    background-color: transparent;    
+    cursor: grab;
+    border-style: none;
+    padding: .3rem .8rem;
+}
+
 .container-color{
     background: #B4D0E7;
 }
@@ -49,8 +56,12 @@ header, main, footer{
     padding: .5rem .3rem;
 }
 
-.background-blue{
+.background-blue button{
     background: #0061FF;
+}
+
+.btn-color button{
+    color: white;
 }
 
 .header-center{
@@ -66,8 +77,20 @@ header, main, footer{
     width: 785px;
 }
 
+.header-center-title h1{
+    font-size: 80px;
+}
+
+.header-center-title{
+    padding-bottom: 40px;
+}
+
 .header-col-left{
     flex-basis: 60%; /* forse necessita di una min-width perchè tanto testo deforma la dimensione della colonna */
+}
+
+.small-size{
+    font-size: 15px;
 }
 
 .main-business-select{
@@ -111,26 +134,12 @@ header, main, footer{
     flex-basis: calc(100% / 5);
 }
 
-button{                        /* css bottoni barra nav */
-    background-color: transparent;    
-    cursor: grab;
-    border-style: none;
-    padding: .3rem .8rem;
-}
-
-.nav-btn-color button{
-    color: white;
-}
-
 .logo{
     padding-right: 1rem;
 } 
 
-.logo img{                /* css immagine del logo */
+.logo img{               
     vertical-align: bottom;
     width: 115px;
 }
 
-.header-center-title h1{
-    font-size: 80px;
-}
