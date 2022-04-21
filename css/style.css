@@ -118,6 +118,19 @@ button{
     flex-grow:1
 }
 
+.card{
+    border: 1px solid lightgrey;
+}
+
+.gap-t-m{
+    gap: 2.5rem;
+}
+
+.card-padding{
+    padding: 2rem 1.5rem;
+}
+/* end css tab e col */
+
 .container-img-text{
     display: flex;
 }
@@ -176,4 +189,13 @@ button{
 .billing-select div{
     display: inline-block;
     padding: 0 3rem 0 0;
+}
+
+.group-business{
+    border-bottom: 1px solid lightgrey;
+    text-align: center;
+}
+
+.list-business li{
+    list-style: none;
 }
