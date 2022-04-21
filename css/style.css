@@ -37,7 +37,7 @@ button{
 }
 
 .container-small {
-    max-width: 960px;
+    max-width: 940px;
     min-width: 300px;
     margin: 0 auto;
     /* padding: 2em 1em; */ /* momentaneamente disattivati */
@@ -115,7 +115,8 @@ button{
 }
 
 .col{
-    flex-grow:1
+    flex-grow:1;
+    flex-basis: calc((940px / 3) - 2.5rem);
 }
 
 .card{
@@ -127,7 +128,7 @@ button{
 }
 
 .card-padding{
-    padding: 2rem 1.5rem;
+    padding: 2rem 2rem;
 }
 /* end css tab e col */
 
@@ -142,7 +143,7 @@ button{
 }
 
 .dropbox-info-col{
-    flex-basis: calc((100% - 2rem) / 3);
+    /*flex-basis: calc((100% / 3) - 2rem;*/
 }
 
 .dropbox-info-subtext{
@@ -194,10 +195,17 @@ button{
 .group-business{
     border-bottom: 1px solid lightgrey;
     text-align: center;
+    padding: .5rem;
 }
 
 .list-business li{
     list-style: none;
+    padding-bottom: 1rem;
+}
+
+.size-i i{
+    font-size: 13px;
+    padding-right: 5px;
 }
 
 .business-select hr{
@@ -213,4 +221,23 @@ button{
 
 .p-lst-color i{
     color: #0061FF;
+}
+
+.type-business{
+    font-size: 19px;
+    padding-bottom: 1rem;
+}
+
+.price-business{
+    font-weight: 600;
+    padding-bottom: .5rem;
+}
+
+.period-business{
+    padding-bottom: 3rem;
+}
+
+.btn-business button{
+    width: 100%;
+    padding: .7rem;
 }
