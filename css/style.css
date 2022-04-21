@@ -191,7 +191,8 @@ button{
     padding: 0 3rem 0 0;
 }
 
-.group-business{
+/* attributi tabella a 4 colonne */
+.group{
     border-bottom: 1px solid lightgrey; /* importante */
     text-align: center;
     padding: .5rem;
@@ -208,17 +209,17 @@ button{
     font-weight: 600;
 }
 
-.type-business{
+.type h3{
     font-size: 19px;
     padding-bottom: 1rem;
 }
 
-.price-business{
+.price{
     font-weight: 600;
     padding-bottom: .5rem;
 }
 
-.period-business{
+.period{
     padding-bottom: 3rem;
 }
 /* end css utile */
