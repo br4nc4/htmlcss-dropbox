@@ -6,8 +6,8 @@
     /*border: 1px solid;*/
 }
 
-header, main, footer{
-    width: 100%;
+main{
+    min-height: 8000px;
 }
 
 header{
@@ -47,6 +47,9 @@ button{
     display: flex;
     justify-content: space-between;
     padding: 1rem;
+    /* position: fixed;  /* problemi con position fixed */
+    background: white;
+    width: 100%; */
 }
 
 .nav-row{
@@ -99,21 +102,20 @@ button{
 }
 
 .header-col-left{
-    flex-basis: 60%; /* forse necessita di una min-width perchè tanto testo deforma la dimensione della colonna */
+    flex-basis: 60%; 
 }
 
 .small-size{
     font-size: 15px;
 }
 
-.main-business-select{
+/* css proprietà delle tabelle e colonne */
+.row{
     display: flex;
-    flex-wrap: wrap;
-    gap: 1rem;
 }
 
-.main-col-business{
-    flex-basis: calc((100% - 2rem) / 3);
+.col{
+    flex-grow:1
 }
 
 .container-img-text{
@@ -169,4 +171,9 @@ button{
 .billing-select input{
     vertical-align: middle;
     width: 1rem;
+}
+
+.billing-select div{
+    display: inline-block;
+    padding: 0 3rem 0 0;
 }
