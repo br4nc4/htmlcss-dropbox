@@ -55,7 +55,6 @@ button{
 .nav-row{
     display: flex;
     justify-content: space-between;
-    /* valutare se inserire GAP al posto di space-between */
     align-items: center;
 }
 
@@ -112,35 +111,17 @@ button{
 /* css proprietà delle tabelle e colonne */
 .row{
     display: flex;
-}
-
-.row-pad-bt{
-    padding-bottom: 2.5rem;
-}
-
-.col-height{
-    min-height: 800px;
+    flex-wrap: wrap;
+    gap: 2.5rem;
 }
 
 .col{
     flex-grow:1;
-    flex-basis: calc((940px / 3) - 2.5rem);
-}
-
-.col-mid{
-    flex-grow: 1;
-}
-
-.mid-size{
-    flex-basis: 60%;
+    flex-basis: calc((940px / 3) - 2.5rem); /* importante */
 }
 
 .card{
     border: 1px solid lightgrey;
-}
-
-.gap-t-m{
-    gap: 2.5rem;
 }
 
 .card-padding{
@@ -193,6 +174,8 @@ button{
     font-size: 3rem;
 }
 
+
+/* css utile */
 .main-business-title h2{
     font-size: 35px;
     padding-bottom: 3rem;
@@ -209,19 +192,9 @@ button{
 }
 
 .group-business{
-    border-bottom: 1px solid lightgrey;
+    border-bottom: 1px solid lightgrey; /* importante */
     text-align: center;
     padding: .5rem;
-}
-
-.list-business li{
-    list-style: none;
-    padding-bottom: 1rem;
-}
-
-.size-i i{
-    font-size: 13px;
-    padding-right: 5px;
 }
 
 .size-hr hr{
@@ -233,10 +206,6 @@ button{
 
 .title-points-lst{
     font-weight: 600;
-}
-
-.p-lst-color i{
-    color: #0061FF;
 }
 
 .type-business{
@@ -252,8 +221,5 @@ button{
 .period-business{
     padding-bottom: 3rem;
 }
+/* end css utile */
 
-.btn-business button{
-    width: 100%;
-    padding: .7rem;
-}
