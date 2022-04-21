@@ -199,3 +199,18 @@ button{
 .list-business li{
     list-style: none;
 }
+
+.business-select hr{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    width: 40px;
+    color: #C1C1C1;
+}
+
+.title-points-lst{
+    font-weight: 600;
+}
+
+.p-lst-color i{
+    color: #0061FF;
+}
