@@ -114,9 +114,25 @@ button{
     display: flex;
 }
 
+.row-pad-bt{
+    padding-bottom: 2.5rem;
+}
+
+.col-height{
+    min-height: 800px;
+}
+
 .col{
     flex-grow:1;
     flex-basis: calc((940px / 3) - 2.5rem);
+}
+
+.col-mid{
+    flex-grow: 1;
+}
+
+.mid-size{
+    flex-basis: 60%;
 }
 
 .card{
@@ -128,7 +144,7 @@ button{
 }
 
 .card-padding{
-    padding: 2rem 2rem;
+    padding: 2rem 1.5rem;
 }
 /* end css tab e col */
 
@@ -208,7 +224,7 @@ button{
     padding-right: 5px;
 }
 
-.business-select hr{
+.size-hr hr{
     margin-top: 2rem;
     margin-bottom: 2rem;
     width: 40px;
