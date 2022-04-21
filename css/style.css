@@ -205,8 +205,10 @@ button{
     color: #C1C1C1;
 }
 
-.title-points-lst{
+.points{
     font-weight: 600;
+    padding-top: 2.5rem;
+    padding-bottom: 2rem;
 }
 
 .type{
@@ -239,7 +241,49 @@ button{
     font-size: 13px;
 }
 
+.row hr{
+    width: 40px;
+    color: lightgrey;
+}
+
 .width-text{
     width: 193px;
+}
+
+.btn-size{
+    width: 220px;
+    padding: .7rem;
+}
+
+.table-button{
+    padding-top: 2rem;
+    padding-bottom: 1.5rem;
+    position: relative;
+}
+
+.btn-pos button{
+    position: absolute;
+    bottom: 1.5rem;
+    left: 8.5rem;
+}
+
+.sub-dist{
+    padding-top: 2rem;
+}
+
+.sub-btn a{
+    font-size: 13px;
+}
+
+.sub-btn{
+    padding-bottom: 2.5rem;
+}
+
+.sub-table{
+    display: flex;
+}
+
+.sub-width{
+    width: 527px;
 }
 /* end css utile per le colonne */
