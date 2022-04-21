@@ -209,7 +209,7 @@ button{
     font-weight: 600;
 }
 
-.type h3{
+.type{
     font-size: 19px;
     padding-bottom: 1rem;
 }
@@ -222,4 +222,24 @@ button{
 .period{
     padding-bottom: 3rem;
 }
-/* end css utile */
+
+.details{
+    display: flex;
+}
+
+.details i{
+    padding-right: 5px;
+}
+
+.details div{
+    padding-bottom: 1rem;
+}
+
+.row i{
+    font-size: 13px;
+}
+
+.width-text{
+    width: 193px;
+}
+/* end css utile per le colonne */
