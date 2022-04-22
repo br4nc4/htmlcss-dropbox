@@ -288,3 +288,6 @@ button{
 }
 
 /* css seconda tabella del main a tre colonne e due righe (6 card) */
+.img-dim-sub img{
+    width: 280px;
+}
