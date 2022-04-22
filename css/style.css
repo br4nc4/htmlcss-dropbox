@@ -329,6 +329,10 @@ button{
     width: 70%;
 }
 
+.width-60{
+    width: 60%;
+}
+
 .snd-row{
     display: flex;
 }
@@ -345,11 +349,56 @@ button{
 
 .square-container .square{
     width: 50%;
-    min-height: 50px; /* momentaneo da capire se va mantenuto */
     /* height: calc(100vw / 6); */ /* buona soluzione ma quadrati non uguali */
     aspect-ratio: 1/1; /* soluzione migliore per dividere square-container in quadrati uguali */
 } 
 
 .ratio-square{
     aspect-ratio: 1/1;
+}
+
+.flt{
+    filter: invert(1);
+}
+
+.ps-sq{
+    position: relative;
+}
+
+.ps-lg{
+    position: absolute;
+}
+
+/* colori della prima colonna */
+.bg-light-g{
+    background: #A2D39B; /* colore primo quadrato */
+}
+
+.bg-bordeaux{
+    background: #61082B; /* colore secondo quadrato */
+}
+
+.bg-azure{
+    background: #0093CE; /* colore terzo quadrato */
+} 
+
+.bg-fire{
+    background: #FF1C1C; /* colore del quarto quadrato */
+}
+
+/* colori della terza colonna */
+.bg-blood{
+    background: #D5001F; /* colore del primo quadrato */
+}
+
+.bg-n-azure{
+    background: #B4D0E7; /* colore del secondo quadrato */
+}
+
+.bg-ocean{
+    background: #0D2481; /* colore del terzo quadrato */
+}
+
+.bg-sun{
+    background: #FFD830; /* colore del quarto quadrato */
 }
