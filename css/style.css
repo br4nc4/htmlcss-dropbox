@@ -302,7 +302,7 @@ button{
     font-size: 17px;
 }
 
-.pd-tbb{
+.pd-tb2{
     padding-bottom: 11rem;
 }
 /* fine css della seconda tabella */
@@ -321,16 +321,16 @@ button{
 .sub-col small{
     font-size: 15px;
 }
+
+.pd-tb3{
+    padding-bottom: 8.5rem;
+}
 /* end css sotto tabella */
 
 
 /* css della sezione quadrati a sinistra e a destra */
-.width-70{
-    width: 70%;
-}
-
-.width-60{
-    width: 60%;
+.width-50{
+    width: 50%;
 }
 
 .snd-row{
@@ -361,17 +361,29 @@ button{
     filter: invert(1);
 }
 
-.ps-sq{
-    position: relative;
+.square{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.ps-lg{
-    position: absolute;
+.lg-pd{
+    padding-bottom: 2rem;
+}
+
+.sq-small{
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+}
+
+.sm-sz{
+    font-size: 15px;
 }
 
 /* colori della prima colonna */
 .bg-light-g{
-    background: #A2D39B; /* colore primo quadrato */
+    background: #A2D39B;
+    border: 15px solid #D1E9CD; /* colore primo quadrato */
 }
 
 .bg-bordeaux{
@@ -402,3 +414,4 @@ button{
 .bg-sun{
     background: #FFD830; /* colore del quarto quadrato */
 }
+/* colori fine */
