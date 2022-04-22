@@ -490,3 +490,21 @@ button{
     line-height: 2rem;
 }
 
+.language{
+    display: flex;
+    align-items: center;
+}
+
+.lng-fnt{
+    font-size: 15px;
+    padding-right: .3rem;
+}
+
+.lng-wrld{
+    font-size: 14px;
+    padding-right: .5rem;
+}
+
+.lng-trng{
+    font-size: 12px;
+}
