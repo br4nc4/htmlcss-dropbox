@@ -230,10 +230,10 @@ button{
     position: relative;
 }
 
-.btn-pos button{
-    position: absolute;
+.btn-pos button{ /* non so come posizionarlo altrimenti */
+    position: absolute; /* problema da risolvere */
     bottom: 1.5rem;
-    left: 8.5rem;
+    left: 14rem;
 }
 
 .sub-dist{
@@ -252,9 +252,6 @@ button{
     display: flex;
 }
 
-.sub-width{
-    width: 527px;
-}
 /* end css utile per le colonne e per la prima tabella*/
 
 /* css seconda parte del main */
@@ -277,10 +274,9 @@ button{
 }
 
 .sub-btnn{
-    border: 1px solid black;
-    width: 135px;
-    padding: .3rem;
-    text-align: center;
+    border: 1px solid;
+    font-size: 15px;
+    padding: .7rem .8rem;
 }
 
 .pd-tb{
@@ -313,7 +309,7 @@ button{
     flex-basis: 60%;
 }
 
-.sub-col h2{
+.fnt-pd{
     font-size: 35px;
     padding-bottom: 3.5rem;
 }
@@ -415,3 +411,28 @@ button{
     background: #FFD830; /* colore del quarto quadrato */
 }
 /* colori fine */
+
+/* banner sotto la sezione dei quadrati */
+.cl-fn{
+    color: #61082B;
+    font-size: 35px;
+    padding: 7rem 0;
+}
+
+.sb-col{
+    flex-basis: 45%;
+}
+
+.cl-atr{
+    position: relative;
+    flex-basis: 56%;
+}
+
+.btn-abs{ /* non riesco a posizionare altrimenti il bottone */
+    position: absolute;
+    background: #FFFFFF;
+    top: 37%;
+    left: 13rem;
+    font-size: 15px;
+    padding: .7rem 3rem;
+}
