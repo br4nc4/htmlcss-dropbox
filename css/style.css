@@ -436,3 +436,29 @@ button{
     font-size: 15px;
     padding: .7rem 3rem;
 }
+
+/* sezione delle domande */
+.qst{
+    display: flex;
+    position: relative;
+    padding: 2.5rem 0;
+} 
+
+.qst-pos{
+    position: absolute;
+    left: 95%;
+}
+
+.qst-style{
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.qst-pos i{
+    font-size: 12px;
+}
+
+.qst-pd{
+    padding-top: 9rem;
+    padding-bottom: 3.5rem;
+}
