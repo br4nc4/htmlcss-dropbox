@@ -129,37 +129,6 @@ button{
 }
 /* end css tab e col */
 
-.container-img-text{
-    display: flex;
-}
-
-.dropbox-info{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1rem;
-}
-
-.dropbox-info-col{
-    /*flex-basis: calc((100% / 3) - 2rem;*/
-}
-
-.dropbox-info-subtext{
-    display: flex;
-}
-
-.dpbox-free{
-    display: flex;
-}
-
-.footer-links{
-    display: flex;
-    flex-wrap: wrap; /* forse in questo caso non serve */
-}
-
-.footer-links-col{
-    flex-basis: calc(100% / 5);
-}
-
 .logo{
     padding-right: 1rem;
 } 
@@ -175,7 +144,7 @@ button{
 }
 
 
-/* css utile */
+/* css utile al main */
 .main-business-title h2{
     font-size: 35px;
     padding-bottom: 3rem;
@@ -286,4 +255,36 @@ button{
 .sub-width{
     width: 527px;
 }
-/* end css utile per le colonne */
+/* end css utile per le colonne e per la prima tabella*/
+
+/* css seconda parte del main */
+.img-dim{
+    width: 550px;
+}
+
+.sub-title{
+    font-size: 19px;
+    padding-bottom: 1rem;
+}
+
+.sub-card-padding{
+    padding: 3rem 2rem;
+}
+
+.sub-txt{
+    font-size: 17px;
+    padding-bottom: 2rem;
+}
+
+.sub-btnn{
+    border: 1px solid black;
+    width: 135px;
+    padding: .3rem;
+    text-align: center;
+}
+
+.pd-tb{
+    padding: 9rem 0;
+}
+
+/* css seconda tabella del main a tre colonne e due righe (6 card) */
