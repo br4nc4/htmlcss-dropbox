@@ -291,3 +291,33 @@ button{
 .img-dim-sub img{
     width: 280px;
 }
+
+.snd-sub-tit{
+    font-size: 19px;
+    padding-top: .5rem;
+    padding-bottom: 1.5rem;
+}
+
+.snd-txt-sub{
+    font-size: 17px;
+}
+
+.pd-tbb{
+    padding-bottom: 11rem;
+}
+/* fine css della seconda tabella */
+
+
+/* css della sotto tabella */
+.sub-col{
+    flex-basis: 60%;
+}
+
+.sub-col h2{
+    font-size: 35px;
+    padding-bottom: 3.5rem;
+}
+
+.sub-col small{
+    font-size: 15px;
+}
