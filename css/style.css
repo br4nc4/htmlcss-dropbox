@@ -55,6 +55,23 @@ button{
 
 .nav-button{
     padding: .5rem .3rem;
+    position: relative;
+}
+
+/*.nav-button .hov-border:hover{
+    display: block;
+}
+
+.hov-border{          
+    position: absolute;
+    height: 50px;
+    width: 80px;
+    display: none;
+    border-bottom: 2px solid rgb(21, 37, 90);
+}*/   /* tantativo di hover sul button */
+
+.btn-hov button:hover{
+    background-color: #3b85ff;
 }
 
 .background-blue button{
@@ -89,6 +106,10 @@ button{
 .header-center-button button{
     padding: .7rem .9rem;
     font-size: 15px;
+}
+
+.header-center-button button:hover{
+    background: #3b85ff;
 }
 
 .header-center-button{
