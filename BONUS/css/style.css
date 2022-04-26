@@ -257,6 +257,10 @@ button{
     font-size: 13px;
 }
 
+.lnk-hov:hover{ /* hover sul link elimina la sottolineatura */
+    text-decoration: unset;
+}
+
 .sub-btn{
     padding-bottom: 2.5rem;
 }
